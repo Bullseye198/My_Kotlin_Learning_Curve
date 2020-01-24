@@ -1,5 +1,8 @@
 //written by Bullseye198
 
+//You can declare the variable outside of enclosing function. For example here, and it works:
+//val name:String = "Nate"
+
 fun main(){
     //there are 2 types of variables in kotlin, mutable (Var) and local read only variables (val) they are used only once.
     
