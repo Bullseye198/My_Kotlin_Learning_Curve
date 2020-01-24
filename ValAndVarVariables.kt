@@ -14,4 +14,9 @@ fun main(){
 
     println(name)
     println(names)
+    println(greeting)
+
+    //We can also modify that greeting because this is a mutable variable:
+    greeting = "hi"
+    println(greeting)
 }
