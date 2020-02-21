@@ -14,5 +14,8 @@ fun main(){
     //we can do the same thing with forEach loop:
     interestingThings.forEach {
         println(it) //it is the default name for each element in the array.
+        
+    //or we can iterate it like this:
+    interestingThings.forEach { interestingThing -> println (interestingThing) }
     }
 }
